@@ -11,5 +11,6 @@ public class Main {
         persona2.hablar();
         persona3.caminar();
         persona3.morir();
+
     }
 }
