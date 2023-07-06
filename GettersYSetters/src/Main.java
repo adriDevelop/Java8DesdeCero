@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         Persona persona1 = new Persona("Adrian", "Velasco Carrasco", "Ronda del Carmen, 5, casa 4", "velascoad@gmail.com", 23, 603811292);
 
-        System.out.println(persona1.toString());
+        System.out.println(persona1);
         persona1.saludo("Estoy enviando este mensaje por parametro.");
         System.out.println(persona1.obtenerNombreCompleto());
 
@@ -15,6 +15,6 @@ public class Main {
         persona2.setEdad(22);
         persona2.setNumeroTelefono(672458987);
 
-        System.out.println(persona2.toString());
+        System.out.println(persona2);
     }
 }
